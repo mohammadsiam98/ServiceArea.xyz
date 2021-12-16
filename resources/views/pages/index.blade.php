@@ -82,31 +82,22 @@
     <!-- desktop header -->
     <header class="desktop-header-2 d-flex align-items-start flex-column">
 
-        <!-- logo image -->
-        <div class="site-logo">
-            <a href="index-2.html">
-                <img src="{{asset('assets/images/logo-b-light.svg')}}" alt="Bolby" />
-            </a>
-        </div>
-
         <!-- main menu -->
         <nav>
             <ul class="vertical-menu scrollspy">
-                <li class="active"><a href="#home"><i class="icon-home"></i></a></li>
-                <li><a href="#about"><i class="icon-user-following"></i></a></li>
-                <li><a href="#services"><i class="icon-briefcase"></i></a></li>
-                <li><a href="#experience"><i class="icon-graduation"></i></a></li>
-                <li><a href="#works"><i class="icon-layers"></i></a></li>
-                <li><a href="#blog"><i class="icon-note"></i></a></li>
-                <li><a href="#contact"><i class="icon-bubbles"></i></a></li>
+                <li class="active"><a href="#home"><img src="{{asset('assets/images/index.png')}}" alt=""></a></li>
+                <li><a href="#about"><img src="{{asset('assets/images/aboutme.png')}}" alt=""></a></li>
+                <li><a href="#services"><img src="{{asset('assets/images/suitcase.png')}}" alt=""></a></li>
+                <li><a href="#education"><img src="{{asset('assets/images/scholarship.png')}}" alt=""></a></li>
+                <li><a href="#experience"><img src="{{asset('assets/images/navExperience.png')}}" alt=""></a></li>
+                <li><a href="#projects"><img src="{{asset('assets/images/project-management.png')}}" alt=""></a></li>
+                <li><a href="#achievements"><img src="{{asset('assets/images/Navachievement.png')}}" alt=""></a></li>
+                <li><a href="#training"><img src="{{asset('assets/images/Navtraining.png')}}" alt=""></a></li>
+                <li><a href="#works"><img src="{{asset('assets/images/layers.png')}}" alt=""></a></li>
+                <li><a href="#contact"><img src="{{asset('assets/images/letter.png')}}" alt=""></a></li>
             </ul>
         </nav>
 
-        <!-- site footer -->
-        <div class="footer">
-            <!-- copyright text -->
-            <span class="copyright">© 2020 Bolby Template.</span>
-        </div>
 
     </header>
 
@@ -123,16 +114,16 @@
                     <img src="{{asset('assets/images/avatar-1.svg')}}" alt="Bolby" class="mb-4" />
 
                     <!-- info -->
-                    <h1 class="mb-2 mt-0">Bolby Doe</h1>
-                    <span>I'm a <span class="text-rotating">UI/UX designer, Front-End developer, Photography lover</span></span>
+                    <h1 class="mb-2 mt-0">Mohammad Al Amin Siam</h1>
+                    <span> <b> I'm a </b><span class="text-rotating" style="font-size: 18px;">Website Designer, Website Developer, Photographer</span></span>
 
                     <!-- social icons -->
                     <ul class="social-icons light list-inline mb-0 mt-4">
-                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fab fa-behance"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><img src="{{asset('assets/images/instagram.png')}}" alt="instagram"></a></li>
+                        <li class="list-inline-item"><a href="#"><img src="{{asset('assets/images/facebook.png')}}" alt="facebook"></a></li>
+                        <li class="list-inline-item"><a href="#"><img src="{{asset('assets/images/github.png')}}" alt="github"></a></li>
+                        <li class="list-inline-item"><a href="#"><img src="{{asset('assets/images/linkedin.png')}}" alt="linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><img src="{{asset('assets/images/phone.png')}}" alt="phone_call"></i></a></li>
                     </ul>
 
                     <!-- buttons -->
@@ -208,10 +199,7 @@
                 <!-- section title -->
                 <h2 class="section-title wow fadeInUp">About Me</h2>
 
-                <div class="spacer" data-height="60"></div>
-
                 <div class="row">
-
                     <div class="col-md-3">
                         <div class="text-center text-md-left">
                             <!-- avatar image -->
@@ -225,7 +213,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <!-- about text -->
-                                    <p>fvbfdgfdgdfgfdgdfgdf</p>
+                                    <p>In this section I will write details about me</p>
                                     <div class="mt-3">
                                         <a href="/download/Review-Paper.pdf" class="btn btn-default">Download CV</a>
                                     </div>
@@ -238,59 +226,6 @@
 
                 </div>
                 <!-- row end -->
-
-                <div class="spacer" data-height="70"></div>
-
-                <div class="row">
-
-                    <div class="col-md-3 col-sm-6">
-                        <!-- fact item -->
-                        <div class="fact-item">
-                            <span class="icon icon-fire"></span>
-                            <div class="details">
-                                <h3 class="mb-0 mt-0 number"><em class="count">198</em></h3>
-                                <p class="mb-0">Projects completed</p>
-                            </div>
-                        </div>
-                        <div class="spacer d-md-none d-lg-none" data-height="30"></div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <!-- fact item -->
-                        <div class="fact-item">
-                            <span class="icon icon-cup"></span>
-                            <div class="details">
-                                <h3 class="mb-0 mt-0 number"><em class="count">5670</em></h3>
-                                <p class="mb-0">Cup of coffee</p>
-                            </div>
-                        </div>
-                        <div class="spacer d-md-none d-lg-none" data-height="30"></div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <!-- fact item -->
-                        <div class="fact-item">
-                            <span class="icon icon-people"></span>
-                            <div class="details">
-                                <h3 class="mb-0 mt-0 number"><em class="count">427</em></h3>
-                                <p class="mb-0">Satisfied clients</p>
-                            </div>
-                        </div>
-                        <div class="spacer d-md-none d-lg-none" data-height="30"></div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                        <!-- fact item -->
-                        <div class="fact-item">
-                            <span class="icon icon-badge"></span>
-                            <div class="details">
-                                <h3 class="mb-0 mt-0 number"><em class="count">35</em></h3>
-                                <p class="mb-0">Nominees winner</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
 
             </div>
 
@@ -308,30 +243,61 @@
 
                 <div class="row">
 
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-sm-12 col-md-12" style="margin-top:40px">
                         <!-- service box -->
                         <div class="service-box rounded data-background padding-30 text-center text-light shadow-blue" data-color="#6C6CE5">
-                            <img src="{{asset('assets/images/service-1.svg')}}" alt="UI/UX design" />
-                            <h3 class="mb-3 mt-0">UI/UX design</h3>
+                            <img src="{{asset('assets/images/graphics.png')}}" alt="Graphbics design" />
+                            <h3 class="mb-3 mt-0">Graphics Design</h3>
                             <p class="mb-0">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
                         </div>
                         <div class="spacer d-md-none d-lg-none" data-height="30"></div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-sm-12 col-md-12" style="margin-top:40px">
                         <!-- service box -->
-                        <div class="service-box rounded data-background padding-30 text-center shadow-yellow" data-color="#F9D74C">
-                            <img src="{{asset('assets/images/service-2.svg')}}" alt="UI/UX design" />
-                            <h3 class="mb-3 mt-0">Web Development</h3>
+                        <div class="service-box rounded data-background padding-30 text-center shadow-blue" data-color="#F9D74C">
+                            <img src="{{asset('assets/images/website.png')}}" alt="Website Design" />
+                            <h3 class="mb-3 mt-0">Website Design</h3>
                             <p class="mb-0">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
                         </div>
                         <div class="spacer d-md-none d-lg-none" data-height="30"></div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-sm-12 col-md-12" style="margin-top:40px">
                         <!-- service box -->
-                        <div class="service-box rounded data-background padding-30 text-center text-light shadow-pink" data-color="#F97B8B">
-                            <img src="{{asset('assets/images/service-3.svg')}}" alt="UI/UX design" />
+                        <div class="service-box rounded data-background padding-30 text-center shadow-blue" data-color="#ABDBE3">
+                            <img src="{{asset('assets/images/development.png')}}" alt="Website Development" />
+                            <h3 class="mb-3 mt-0">Website Development</h3>
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+                        </div>
+                        <div class="spacer d-md-none d-lg-none" data-height="30"></div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-sm-12 col-md-12" style="margin-top:40px">
+                        <!-- service box -->
+                        <div class="service-box rounded data-background padding-30 text-center shadow-blue" data-color="#21b7a5">
+                            <img src="{{asset('assets/images/wordpress.png')}}" alt="Wordpress" />
+                            <h3 class="mb-3 mt-0">Wordpress</h3>
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+                        </div>
+                        <div class="spacer d-md-none d-lg-none" data-height="30"></div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12 col-md-12" style="margin-top:40px">
+                        <!-- service box -->
+                        <div class="service-box rounded data-background padding-30 text-center shadow-blue" data-color="#ff8d47">
+                            <img src="{{asset('assets/images/editing.png')}}" alt="Video Editing" />
+                            <h3 class="mb-3 mt-0">Video Editing</h3>
+                            <p class="mb-0">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+                        </div>
+                        <div class="spacer d-md-none d-lg-none" data-height="30"></div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12 col-md-12" style="margin-top:40px">
+                        <!-- service box -->
+                        <div class="service-box rounded data-background padding-30 text-center text-light shadow-blue" data-color="#EAB676">
+                            <img src="{{asset('assets/images/photography.png')}}" alt="Photography" />
                             <h3 class="mb-3 mt-0">Photography</h3>
                             <p class="mb-0">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
                         </div>
@@ -347,28 +313,26 @@
 
         </section>
 
-        <!-- section experience -->
-        <section id="experience">
+        <!-- Section education -->
+        <section id="education">
 
             <div class="container">
 
                 <!-- section title -->
-                <h2 class="section-title wow fadeInUp">Experience</h2>
-
+                <h2 class="section-title wow fadeInUp">Education</h2>
                 <div class="spacer" data-height="60"></div>
 
                 <div class="row">
-
-                    <div class="col-md-6">
-
+                    <div class="col-md-12">
                         <!-- timeline wrapper -->
                         <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
-
                             <!-- timeline item -->
                             <div class="timeline-container wow fadeInUp">
                                 <div class="content">
+                                    <img src="{{asset('assets/images/education1.png')}}" class="education" style="margin-right: 15px;" alt="">
                                     <span class="time">2019 - Present</span>
                                     <h3 class="title">Academic Degree</h3>
+
                                     <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
                                 </div>
                             </div>
@@ -376,6 +340,7 @@
                             <!-- timeline item -->
                             <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="content">
+                                    <img src="{{asset('assets/images/education1.png')}}" class="education" style="margin-right: 15px;" alt="">
                                     <span class="time">2017 - 2013</span>
                                     <h3 class="title">Bachelor’s Degree</h3>
                                     <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
@@ -385,32 +350,41 @@
                             <!-- timeline item -->
                             <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="content">
+                                    <img src="{{asset('assets/images/education1.png')}}" class="education" style="margin-right: 15px;" alt="">
                                     <span class="time">2013 - 2009</span>
                                     <h3 class="title">Honours Degree</h3>
                                     <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
                                 </div>
                             </div>
-
                             <!-- main line -->
                             <span class="line"></span>
 
                         </div>
-
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <div class="col-md-6">
 
-                        <!-- responsive spacer -->
-                        <div class="spacer d-md-none d-lg-none" data-height="30"></div>
+        <!-- Section experience -->
+        <section id="experience">
 
+            <div class="container">
+
+                <!-- section title -->
+                <h2 class="section-title wow fadeInUp">Experience</h2>
+                <div class="spacer" data-height="60"></div>
+
+                <div class="row">
+                    <div class="col-md-12">
                         <!-- timeline wrapper -->
-                        <div class="timeline exp bg-white rounded shadow-dark padding-30 overflow-hidden">
-
+                        <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
                             <!-- timeline item -->
                             <div class="timeline-container wow fadeInUp">
                                 <div class="content">
+                                    <img src="{{asset('assets/images/idea.png')}}" class="education" style="margin-right: 15px;" alt="">
                                     <span class="time">2019 - Present</span>
-                                    <h3 class="title">Web Designer</h3>
+                                    <h3 class="title">Academic Degree</h3>
                                     <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
                                 </div>
                             </div>
@@ -418,8 +392,9 @@
                             <!-- timeline item -->
                             <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="content">
+                                    <img src="{{asset('assets/images/idea.png')}}" class="education" style="margin-right: 15px;" alt="">
                                     <span class="time">2017 - 2013</span>
-                                    <h3 class="title">Front-End Developer</h3>
+                                    <h3 class="title">Bachelor’s Degree</h3>
                                     <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
                                 </div>
                             </div>
@@ -427,23 +402,172 @@
                             <!-- timeline item -->
                             <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="content">
+                                    <img src="{{asset('assets/images/idea.png')}}" class="education" style="margin-right: 15px;" alt="">
                                     <span class="time">2013 - 2009</span>
-                                    <h3 class="title">Back-End Developer</h3>
+                                    <h3 class="title">Honours Degree</h3>
                                     <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
                                 </div>
                             </div>
-
                             <!-- main line -->
                             <span class="line"></span>
 
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
+        </section>
 
+        <!-- Section Projects -->
+        <section id="projects">
+
+            <div class="container">
+
+                <!-- section title -->
+                <h2 class="section-title wow fadeInUp">Projects</h2>
+                <div class="spacer" data-height="60"></div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- timeline wrapper -->
+                        <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/project.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2019 - Present</span>
+                                    <h3 class="title">Academic Degree</h3>
+                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/project.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2017 - 2013</span>
+                                    <h3 class="title">Bachelor’s Degree</h3>
+                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/project.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2013 - 2009</span>
+                                    <h3 class="title">Honours Degree</h3>
+                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                </div>
+                            </div>
+                            <!-- main line -->
+                            <span class="line"></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Achievements -->
+        <section id="achievements">
+
+            <div class="container">
+
+                <!-- section title -->
+                <h2 class="section-title wow fadeInUp">Achievements</h2>
+                <div class="spacer" data-height="60"></div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- timeline wrapper -->
+                        <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/achievement.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2019 - Present</span>
+                                    <h3 class="title">Academic Degree</h3>
+                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/achievement.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2017 - 2013</span>
+                                    <h3 class="title">Bachelor’s Degree</h3>
+                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/achievement.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2013 - 2009</span>
+                                    <h3 class="title">Honours Degree</h3>
+                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                </div>
+                            </div>
+                            <!-- main line -->
+                            <span class="line"></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Workshop, Training & Certifications -->
+        <section id="training">
+
+            <div class="container">
+
+                <!-- section title -->
+                <h2 class="section-title wow fadeInUp">Certificates on Workshops & Training</h2>
+                <div class="spacer" data-height="60"></div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- timeline wrapper -->
+                        <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/training.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2019 - Present</span>
+                                    <h3 class="title">Academic Degree</h3>
+                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/training.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2017 - 2013</span>
+                                    <h3 class="title">Bachelor’s Degree</h3>
+                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/training.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2013 - 2009</span>
+                                    <h3 class="title">Honours Degree</h3>
+                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                </div>
+                            </div>
+                            <!-- main line -->
+                            <span class="line"></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- section works -->
@@ -459,151 +583,95 @@
                 <!-- portfolio filter (desktop) -->
                 <ul class="portfolio-filter list-inline wow fadeInUp">
                     <li class="current list-inline-item" data-filter="*">Everything</li>
-                    <li class="list-inline-item" data-filter=".creative">Creative</li>
-                    <li class="list-inline-item" data-filter=".art">Art</li>
-                    <li class="list-inline-item" data-filter=".design">Design</li>
-                    <li class="list-inline-item" data-filter=".branding">Branding</li>
+                    <li class="list-inline-item" data-filter=".web_design">Web Design</li>
+                    <li class="list-inline-item" data-filter=".web_development">Web Development</li>
+                    <li class="list-inline-item" data-filter=".design">Photography</li>
+                    <li class="list-inline-item" data-filter=".branding">Video Editing</li>
                 </ul>
 
                 <!-- portfolio filter (mobile) -->
                 <div class="pf-filter-wrapper">
                     <select class="portfolio-filter-mobile">
                         <option value="*">Everything</option>
-                        <option value=".creative">Creative</option>
-                        <option value=".art">Art</option>
-                        <option value=".design">Design</option>
-                        <option value=".branding">Branding</option>
+                        <option value=".web_design">Web Design</option>
+                        <option value=".web_development">Web Development</option>
+                        <option value=".design">Photography</option>
+                        <option value=".branding">Video Editing</option>
                     </select>
                 </div>
 
                 <!-- portolio wrapper -->
                 <div class="row portfolio-wrapper">
-
                     <!-- portfolio item -->
-                    <div class="col-md-4 col-sm-6 grid-item art">
-                        <a href="images/works/1.svg" class="work-image">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Art</span>
-                                    <h4 class="title">Project Managment Illustration</h4>
-                                    <span class="more-button"><i class="icon-magnifier-add"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/1.svg" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- portfolio item -->
-                    <div class="col-md-4 col-sm-6 grid-item creative design">
+                    <div class="col-md-4 col-sm-6 grid-item web_development">
                         <a href="#small-dialog" class="work-content">
                             <div class="portfolio-item rounded shadow-dark">
                                 <div class="details">
-                                    <span class="term">Creative</span>
-                                    <h4 class="title">Guest App Walkthrough Screens</h4>
+                                    <span class="term">Web Development</span>
+                                    <h4 class="title">A blog website</h4>
                                     <span class="more-button"><i class="icon-options"></i></span>
                                 </div>
                                 <div class="thumb">
-                                    <img src="images/works/2.svg" alt="Portfolio-title" />
+                                    <img src="{{asset('assets/images/demo1.png')}}" alt="Portfolio-title" />
                                     <div class="mask"></div>
                                 </div>
                             </div>
                         </a>
                         <div id="small-dialog" class="white-popup zoom-anim-dialog mfp-hide">
-                            <img src="images/single-work.svg" alt="Title" />
-                            <h2>Guest App Walkthrough Screens</h2>
+                            <img src="{{asset('assets/images/demo1.png')}}" alt="Title" />
+                            <h2>ThatStories.xyz</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
                             <p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
                             <a href="#" class="btn btn-default">View on Dribbble</a>
                         </div>
                     </div>
-
                     <!-- portfolio item -->
-                    <div class="col-md-4 col-sm-6 grid-item branding">
-                        <a href="https://www.youtube.com/watch?v=qf9z4ulfmYw" class="work-video">
+                    <div class="col-md-4 col-sm-6 grid-item web_development">
+                        <a href="#small-dialog1" class="work-content">
                             <div class="portfolio-item rounded shadow-dark">
                                 <div class="details">
-                                    <span class="term">Branding</span>
-                                    <h4 class="title">Delivery App Wireframe</h4>
-                                    <span class="more-button"><i class="icon-camrecorder"></i></span>
+                                    <span class="term">Web Development</span>
+                                    <h4 class="title">A lawyer consultation firm website</h4>
+                                    <span class="more-button"><i class="icon-options"></i></span>
                                 </div>
                                 <div class="thumb">
-                                    <img src="images/works/3.svg" alt="Portfolio-title" />
+                                    <img src="{{asset('assets/images/website2.png')}}" alt="Portfolio-title" />
                                     <div class="mask"></div>
                                 </div>
                             </div>
                         </a>
-                    </div>
-
-                    <!-- portfolio item -->
-                    <div class="col-md-4 col-sm-6 grid-item creative">
-                        <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/240233494&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" class="work-video">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Creative</span>
-                                    <h4 class="title">Onboarding Motivation</h4>
-                                    <span class="more-button"><i class="icon-music-tone-alt"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/4.svg" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- portfolio item -->
-                    <div class="col-md-4 col-sm-6 grid-item art branding">
-                        <a href="#gallery-1" class="gallery-link">
-                            <div class="portfolio-item rounded shadow-dark">
-                                <div class="details">
-                                    <span class="term">Art, Branding</span>
-                                    <h4 class="title">iMac Mockup Design</h4>
-                                    <span class="more-button"><i class="icon-picture"></i></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="images/works/5.svg" alt="Portfolio-title" />
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                        <div id="gallery-1" class="gallery mfp-hide">
-                            <a href="images/works/5.svg"></a>
-                            <a href="images/works/4.svg"></a>
+                        <div id="small-dialog1" class="white-popup zoom-anim-dialog mfp-hide">
+                            <img src="{{asset('assets/images/website2.png')}}" alt="Title" />
+                            <h2>A lawyer consultation firm website</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
+                            <p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
+                            <a href="#" class="btn btn-default">View on Dribbble</a>
                         </div>
                     </div>
-
                     <!-- portfolio item -->
-                    <div class="col-md-4 col-sm-6 grid-item creative design">
-                        <a href="https://themeforest.net/user/pxlsolutions/portfolio" target="_blank">
+                    <div class="col-md-4 col-sm-6 grid-item web_development">
+                        <a href="#small-dialog2" class="work-content">
                             <div class="portfolio-item rounded shadow-dark">
                                 <div class="details">
-                                    <span class="term">Creative, Design</span>
-                                    <h4 class="title">Game Store App Concept</h4>
-                                    <span class="more-button"><i class="icon-link"></i></span>
+                                    <span class="term">Web Development</span>
+                                    <h4 class="title">Business Listing Website</h4>
+                                    <span class="more-button"><i class="icon-options"></i></span>
                                 </div>
                                 <div class="thumb">
-                                    <img src="images/works/6.svg" alt="Portfolio-title" />
+                                    <img src="{{asset('assets/images/demo3.jpg')}}" alt="Portfolio-title" />
                                     <div class="mask"></div>
                                 </div>
                             </div>
                         </a>
+                        <div id="small-dialog2" class="white-popup zoom-anim-dialog mfp-hide">
+                            <img src="{{asset('assets/images/demo3.jpg')}}" alt="Title" />
+                            <h2>Business Listing Website</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
+                            <p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
+                            <a href="#" class="btn btn-default">View on Dribbble</a>
+                        </div>
                     </div>
-
                 </div>
-
-                <!-- more button -->
-                <div class="load-more text-center mt-4">
-                    <a href="javascript:" class="btn btn-default"><i class="fas fa-spinner"></i> Load more</a>
-                    <!-- numbered pagination (hidden for infinite scroll) -->
-                    <ul class="portfolio-pagination list-inline d-none">
-                        <li class="list-inline-item">1</li>
-                        <li class="list-inline-item"><a href="works-2.html">2</a></li>
-                    </ul>
-                </div>
-
             </div>
 
         </section>
@@ -620,10 +688,10 @@
 
                 <div class="row">
 
-                    <div class="col-md-4 pr-md-0 mt-md-4 mt-0">
+                    <div class="col-md-6 pr-md-0 mt-md-4 mt-0">
                         <!-- price item -->
                         <div class="price-item bg-white rounded shadow-dark text-center">
-                            <img src="images/price-1.svg" alt="Regular" />
+                            <img src="{{asset('assets/images/price-1.svg')}}" alt="Regular" />
                             <h2 class="plan">Basic</h2>
                             <p>A Simple option but powerful to manage your business</p>
                             <p>Email support</p>
@@ -632,27 +700,38 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 px-md-0 my-4 my-md-0">
-                        <!-- price item recommended-->
-                        <div class="price-item bg-white rounded shadow-dark text-center best">
-                            <span class="badge">Recommended</span>
-                            <img src="images/price-2.svg" alt="Premium" />
-                            <h2 class="plan">Premium</h2>
-                            <p>Unlimited product including apps integrations and more features</p>
-                            <p>Mon-Fri support</p>
-                            <h3 class="price"><em>$</em>49<span>Month</span></h3>
+                    <div class="col-md-6 pr-md-0 mt-md-4 mt-0">
+                        <!-- price item -->
+                        <div class="price-item bg-white rounded shadow-dark text-center">
+                            <img src="{{asset('assets/images/price-2.svg')}}" alt="Regular" />
+                            <h2 class="plan">Standard</h2>
+                            <p>A Simple option but powerful to manage your business</p>
+                            <p>Email support</p>
+                            <h3 class="price"><em>$</em>9<span>Month</span></h3>
                             <a href="#" class="btn btn-default">Get Started</a>
                         </div>
                     </div>
 
-                    <div class="col-md-4 pl-md-0 mt-md-4 mt-0">
+                    <div class="col-md-6 pr-md-0 mt-md-4 mt-0">
                         <!-- price item -->
                         <div class="price-item bg-white rounded shadow-dark text-center">
-                            <img src="images/price-3.svg" alt="Ultimate" />
+                            <img src="{{asset('assets/images/premium.png')}}" alt="Regular" />
+                            <h2 class="plan">Premium</h2>
+                            <p>A Simple option but powerful to manage your business.this is a nice plan</p>
+                            <p>Email support</p>
+                            <h3 class="price"><em>$</em>9<span>Month</span></h3>
+                            <a href="#" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 pr-md-0 mt-md-4 mt-0">
+                        <!-- price item -->
+                        <div class="price-item bg-white rounded shadow-dark text-center">
+                            <img src="{{asset('assets/images/price-3.svg')}}" alt="Regular" />
                             <h2 class="plan">Ultimate</h2>
-                            <p>A wise option for large companies and individuals</p>
-                            <p>24/7 support</p>
-                            <h3 class="price"><em>$</em>99<span>Month</span></h3>
+                            <p>A Simple option but powerful to manage your business</p>
+                            <p>Email support</p>
+                            <h3 class="price"><em>$</em>9<span>Month</span></h3>
                             <a href="#" class="btn btn-default">Get Started</a>
                         </div>
                     </div>
@@ -679,9 +758,9 @@
                     <!-- testimonial item -->
                     <div class="testimonial-item text-center mx-auto">
                         <div class="thumb mb-3 mx-auto">
-                            <img src="images/avatar-3.svg" alt="customer-name" />
+                            <img src="{{asset('assets/images/avatar-3.svg')}}" alt="customer-name" />
                         </div>
-                        <h4 class="mt-3 mb-0">John Doe</h4>
+                        <h4 class="mt-3 mb-0">Md Khalid</h4>
                         <span class="subtitle">Product designer at Dribbble</span>
                         <div class="bg-white padding-30 shadow-dark rounded triangle-top position-relative mt-4">
                             <p class="mb-0">I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍</p>
@@ -691,7 +770,7 @@
                     <!-- testimonial item -->
                     <div class="testimonial-item text-center mx-auto">
                         <div class="thumb mb-3 mx-auto">
-                            <img src="images/avatar-1.svg" alt="customer-name" />
+                            <img src="{{asset('assets/images/avatar-3.svg')}}" alt="customer-name" />
                         </div>
                         <h4 class="mt-3 mb-0">John Doe</h4>
                         <span class="subtitle">Product designer at Dribbble</span>
@@ -707,7 +786,7 @@
                         <!-- client item -->
                         <div class="client-item">
                             <div class="inner">
-                                <img src="images/client-1.svg" alt="client-name" />
+                                <img src="{{asset('assets/images/khalid.png')}}" alt="client-name" />
                             </div>
                         </div>
                     </div>
@@ -715,7 +794,7 @@
                         <!-- client item -->
                         <div class="client-item">
                             <div class="inner">
-                                <img src="images/client-2.svg" alt="client-name" />
+                                <img src="{{asset('assets/images/logo.png')}}" alt="client-name" />
                             </div>
                         </div>
                     </div>
@@ -723,7 +802,7 @@
                         <!-- client item -->
                         <div class="client-item">
                             <div class="inner">
-                                <img src="images/client-3.svg" alt="client-name" />
+                                <img src="{{asset('assets/images/dreamLogo.png')}}" alt="client-name" />
                             </div>
                         </div>
                     </div>
@@ -731,7 +810,7 @@
                         <!-- client item -->
                         <div class="client-item">
                             <div class="inner">
-                                <img src="images/client-4.svg" alt="client-name" />
+                                <img src="{{asset('assets/images/NEW LOGO ALTASWIQ.png')}}" alt="client-name" />
                             </div>
                         </div>
                     </div>
@@ -739,7 +818,7 @@
                         <!-- client item -->
                         <div class="client-item">
                             <div class="inner">
-                                <img src="images/client-5.svg" alt="client-name" />
+                                <img src="{{asset('assets/images/storiesand.png')}}" alt="client-name" />
                             </div>
                         </div>
                     </div>
@@ -747,23 +826,7 @@
                         <!-- client item -->
                         <div class="client-item">
                             <div class="inner">
-                                <img src="images/client-6.svg" alt="client-name" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <!-- client item -->
-                        <div class="client-item">
-                            <div class="inner">
-                                <img src="images/client-7.svg" alt="client-name" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-6">
-                        <!-- client item -->
-                        <div class="client-item">
-                            <div class="inner">
-                                <img src="images/client-8.svg" alt="client-name" />
+                                <img src="{{asset('assets/images/courierashbe.png')}}" alt="client-name" />
                             </div>
                         </div>
                     </div>
@@ -848,7 +911,7 @@
     </main>
 
     <!-- Go to top button -->
-    <a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
+    <a href="" id="return-to-top"><img src="{{asset('assets/images/arrowup.png')}}" alt=""></a>
 
     <!-- SCRIPTS -->
     <script src="{{asset('assets/js/jquery-1.12.3.min.js')}}"></script>
