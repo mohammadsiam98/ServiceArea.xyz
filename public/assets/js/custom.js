@@ -383,7 +383,7 @@ $(function () {
 
     $(".vertical-menu li i.switch").on('click', function () {
         var $submenu = $(this).next(".submenu");
-        $submenu.slideToggle(300);
+        $submenu.slideToggle(500);
         $submenu.parent().toggleClass("openmenu");
     });
 

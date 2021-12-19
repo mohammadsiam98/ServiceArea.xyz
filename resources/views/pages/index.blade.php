@@ -26,43 +26,8 @@
 
 <body>
 
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="outer">
-            <!-- Google Chrome -->
-            <div class="infinityChrome">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-
-            <!-- Safari and others -->
-            <div class="infinity">
-                <div>
-                    <span></span>
-                </div>
-                <div>
-                    <span></span>
-                </div>
-                <div>
-                    <span></span>
-                </div>
-            </div>
-            <!-- Stuff -->
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo-outer">
-                <defs>
-                    <filter id="goo">
-                        <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
-                        <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-                        <feBlend in="SourceGraphic" in2="goo" />
-                    </filter>
-                </defs>
-            </svg>
-        </div>
-    </div>
-
     <!-- mobile header -->
-    <header class="mobile-header-2">
+    <header class="mobile-header-1">
         <div class="container">
             <!-- menu icon -->
             <div class="menu-icon d-inline-flex mr-4">
@@ -70,31 +35,31 @@
                     <span></span>
                 </button>
             </div>
-            <!-- logo image -->
-            <div class="site-logo">
-                <a href="index-2.html">
-                    <img src="images/logo.svg" alt="Bolby" />
-                </a>
-            </div>
+
         </div>
     </header>
 
     <!-- desktop header -->
-    <header class="desktop-header-2 d-flex align-items-start flex-column">
+    <header class="desktop-header-1 d-flex align-items-start flex-column">
 
         <!-- main menu -->
         <nav>
             <ul class="vertical-menu scrollspy">
-                <li class="active"><a href="#home"><img src="{{asset('assets/images/index.png')}}" alt=""></a></li>
-                <li><a href="#about"><img src="{{asset('assets/images/aboutme.png')}}" alt=""></a></li>
-                <li><a href="#services"><img src="{{asset('assets/images/suitcase.png')}}" alt=""></a></li>
-                <li><a href="#education"><img src="{{asset('assets/images/scholarship.png')}}" alt=""></a></li>
-                <li><a href="#experience"><img src="{{asset('assets/images/navExperience.png')}}" alt=""></a></li>
-                <li><a href="#projects"><img src="{{asset('assets/images/project-management.png')}}" alt=""></a></li>
-                <li><a href="#achievements"><img src="{{asset('assets/images/Navachievement.png')}}" alt=""></a></li>
-                <li><a href="#training"><img src="{{asset('assets/images/Navtraining.png')}}" alt=""></a></li>
-                <li><a href="#works"><img src="{{asset('assets/images/layers.png')}}" alt=""></a></li>
-                <li><a href="#contact"><img src="{{asset('assets/images/letter.png')}}" alt=""></a></li>
+                <li class="active"><img src="{{asset('assets/images/index.png')}}" alt=""><a href="">Home</a></li>
+                <li><img src="{{asset('assets/images/aboutme.png')}}" class="image_assemble" alt="about"><a href="#about">About</a></li>
+                <li><img src="{{asset('assets/images/suitcase.png')}}" alt="services"><a href="#services">Services</a></li>
+                <li><img src="{{asset('assets/images/programming.png')}}" alt="backendProgrammingskills"><a href="#backendProgrammingskills">Backend</a></li>
+                <li><img src="{{asset('assets/images/frontend.png')}}" alt="frontendProgrammingskills"><a href="#frontendProgrammingskills">Frontend</a></li>
+                <li><img src="{{asset('assets/images/scholarship.png')}}" alt="education"><a href="#education">Education</a></li>
+                <li><img src="{{asset('assets/images/idea1.png')}}" alt="experience"><a href="#experience">Experience</a></li>
+                <li><img src="{{asset('assets/images/projectIcon.png')}}" alt="projects"><a href="#projects">Projects</a></li>
+                <li><img src="{{asset('assets/images/achievement.png')}}" alt="achievements"><a href="#achievements">Achievements</a></li>
+                <li><img src="{{asset('assets/images/training.png')}}" alt="training"><a href="#training">Training</a></li>
+                <li><img src="{{asset('assets/images/extraActivities.png')}}" alt="extraActivities"><a href="#extraActivities">Activities</a></li>
+                <li><img src="{{asset('assets/images/layers.png')}}" alt="works"><a href="#works">Works</a></li>
+                <li><img src="{{asset('assets/images/hire.png')}}" alt="prices"><a href="#prices">Price</a></li>
+                <li><img src="{{asset('assets/images/reviews.png')}}" alt="testimonials"><a href="#testimonials">Testimonials</a></li>
+                <li><img src="{{asset('assets/images/letter.png')}}" alt="contact"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
@@ -114,21 +79,23 @@
                     <img src="{{asset('assets/images/avatar-1.svg')}}" alt="Bolby" class="mb-4" />
 
                     <!-- info -->
-                    <h1 class="mb-2 mt-0">Mohammad Al Amin Siam</h1>
-                    <span> <b> I'm a </b><span class="text-rotating" style="font-size: 18px;">Website Designer, Website Developer, Photographer</span></span>
+                    <h1 class="mb-2 mt-0" style="font-family: 'Poppins', sans-serif;">Mohammad Al Amin Siam</h1>
+                    <span> <b> I'm a </b><span class="text-rotating">Website Designer, Website Developer, Photographer</span></span>
 
                     <!-- social icons -->
                     <ul class="social-icons light list-inline mb-0 mt-4">
-                        <li class="list-inline-item"><a href="#"><img src="{{asset('assets/images/instagram.png')}}" alt="instagram"></a></li>
-                        <li class="list-inline-item"><a href="#"><img src="{{asset('assets/images/facebook.png')}}" alt="facebook"></a></li>
-                        <li class="list-inline-item"><a href="#"><img src="{{asset('assets/images/github.png')}}" alt="github"></a></li>
-                        <li class="list-inline-item"><a href="#"><img src="{{asset('assets/images/linkedin.png')}}" alt="linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><img src="{{asset('assets/images/phone.png')}}" alt="phone_call"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/mohammadalaminsiam/"><img src="{{asset('assets/images/instagram.png')}}" alt="instagram"></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/MohammadalaminSiam/"><img src="{{asset('assets/images/facebook.png')}}" alt="facebook"></a></li>
+                        <li class="list-inline-item"><a href="mailto:msiam171091@bscse.uiu.ac.bd"><img src="{{asset('assets/images/email.png')}}" alt="email"></i></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/mohammadsiam98"><img src="{{asset('assets/images/github.png')}}" alt="github"></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/mohammadalaminsiam/"><img src="{{asset('assets/images/linkedin.png')}}" alt="linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="tel:01626453849"><img src="{{asset('assets/images/phone.png')}}" alt="phone_call"></i></a></li>
+
                     </ul>
 
                     <!-- buttons -->
                     <div class="mt-4">
-                        <a href="/download/Review-Paper.pdf" class="btn btn-default">Hire me</a>
+                        <a href="/download" class="btn btn-default">Hire me</a>
                     </div>
                 </div>
 
@@ -198,24 +165,19 @@
 
                 <!-- section title -->
                 <h2 class="section-title wow fadeInUp">About Me</h2>
-
+                <div class="spacer" data-height="60"></div>
                 <div class="row">
-                    <div class="col-md-3">
-                        <div class="text-center text-md-left">
-                            <!-- avatar image -->
-                            <img src="{{asset('assets/images/avatar-2.svg')}}" alt="Bolby" />
-                        </div>
-                        <div class="spacer d-md-none d-lg-none" data-height="30"></div>
-                    </div>
-
-                    <div class="col-md-9 triangle-left-md triangle-top-sm">
+                    <div class="col-md-12 triangle-left-md triangle-top-sm">
                         <div class="rounded bg-white shadow-dark padding-30">
                             <div class="row">
                                 <div class="col-md-12">
                                     <!-- about text -->
-                                    <p>In this section I will write details about me</p>
+                                    <p>Hi, I'm Mohammad Al Amin Siam and I am a website developer
+                                        I was born in January 1998 in Bangladesh at dhaka city. Hard-working web developer with a flair for creating elegant solutions in the least amount of time. Developed an ecommerce web application, Business portfolio website, Business listing website, Ebook website, Blog portal and personal portfolio websites as well. Passionate about web design & web development.
+                                        My hobbies are photography and cinematography. In 2018 I was a weeding photographer but later then I used to start this photography as a hobby. So, I decided that, I will take portfolio pictures. I'm also a professional video editor.
+                                    </p>
                                     <div class="mt-3">
-                                        <a href="/download/Review-Paper.pdf" class="btn btn-default">Download CV</a>
+                                        <a href="/download" class="btn btn-default">Download CV</a>
                                     </div>
                                     <div class="spacer d-md-none d-lg-none" data-height="30"></div>
                                 </div>
@@ -313,6 +275,141 @@
 
         </section>
 
+        <!-- Section backend programming skills -->
+        <section id="backendProgrammingskills">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title wow fadeInUp">Backend Programming Skills</h2>
+                <div class="spacer" data-height="60"></div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- timeline wrapper -->
+                        <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/php.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">Backend Programming Language</span>
+                                    <h3 class="title">PHP</h3>
+                                    <div class="skill-item">
+                                        <div class="skill-info clearfix">
+                                            <span class="float-right">50%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" data-color="#00F7F7">
+                                            </div>
+                                        </div>
+                                        <div class="spacer" data-height="20"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/laravel.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">Backend Framework</span>
+                                    <h3 class="title">Laravel</h3>
+                                    <div class="skill-item">
+                                        <div class="skill-info clearfix">
+                                            <span class="float-right">70%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" data-color="#FF4C60">
+                                            </div>
+                                        </div>
+                                        <div class="spacer" data-height="20"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/js-file.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">Scripting language</span>
+                                    <h3 class="title">Javascript</h3>
+                                    <div class="skill-item">
+                                        <div class="skill-info clearfix">
+                                            <span class="float-right">30%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="30" data-color="#FFD15C">
+                                            </div>
+                                        </div>
+                                        <div class="spacer" data-height="20"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- main line -->
+                            <span class="line"></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section frontend programming skills -->
+        <section id="frontendProgrammingskills">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title wow fadeInUp">Frontend Programming Skills</h2>
+                <div class="spacer" data-height="60"></div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- timeline wrapper -->
+                        <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/html.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">Frontend Language</span>
+                                    <h3 class="title">HTML</h3>
+                                    <div class="skill-item">
+                                        <div class="skill-info clearfix">
+                                            <span class="float-right">85%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85" data-color="#FF4C60">
+                                            </div>
+                                        </div>
+                                        <div class="spacer" data-height="20"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/css.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">Frontend Language</span>
+                                    <h3 class="title">CSS</h3>
+                                    <div class="skill-item">
+                                        <div class="skill-info clearfix">
+                                            <span class="float-right">60%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" data-color="#6C6CE5">
+                                            </div>
+                                        </div>
+                                        <div class="spacer" data-height="20"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- main line -->
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Section education -->
         <section id="education">
 
@@ -330,10 +427,10 @@
                             <div class="timeline-container wow fadeInUp">
                                 <div class="content">
                                     <img src="{{asset('assets/images/education1.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2019 - Present</span>
-                                    <h3 class="title">Academic Degree</h3>
+                                    <span class="time">Passed Year-2014</span>
+                                    <h3 class="title">Mohammadpur Preparatory Higher Secondary School</h3>
+                                    <p>Secondary School Certificate.</p>
 
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
                                 </div>
                             </div>
 
@@ -341,9 +438,9 @@
                             <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="content">
                                     <img src="{{asset('assets/images/education1.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2017 - 2013</span>
-                                    <h3 class="title">Bachelor’s Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">Passed Year-2016</span>
+                                    <h3 class="title">Birshreshtha Munshi Abdur Rouf Public College</h3>
+                                    <p>Higher Secondary School Certificate.</p>
                                 </div>
                             </div>
 
@@ -351,9 +448,9 @@
                             <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="content">
                                     <img src="{{asset('assets/images/education1.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2013 - 2009</span>
-                                    <h3 class="title">Honours Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">Passed Year-2021</span>
+                                    <h3 class="title">United International University</h3>
+                                    <p>Bsc in computer science & engineering.</p>
                                 </div>
                             </div>
                             <!-- main line -->
@@ -364,7 +461,6 @@
                 </div>
             </div>
         </section>
-
 
         <!-- Section experience -->
         <section id="experience">
@@ -383,9 +479,9 @@
                             <div class="timeline-container wow fadeInUp">
                                 <div class="content">
                                     <img src="{{asset('assets/images/idea.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2019 - Present</span>
-                                    <h3 class="title">Academic Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">2020-2021</span>
+                                    <h3 class="title">Altaswiq- firm of digital marketing</h3>
+                                    <p>position: Content creator & video editor.</p>
                                 </div>
                             </div>
 
@@ -393,9 +489,9 @@
                             <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="content">
                                     <img src="{{asset('assets/images/idea.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2017 - 2013</span>
-                                    <h3 class="title">Bachelor’s Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">2020-2021</span>
+                                    <h3 class="title">Damaska Digital</h3>
+                                    <p>position: Graphics designer.</p>
                                 </div>
                             </div>
 
@@ -403,9 +499,9 @@
                             <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="content">
                                     <img src="{{asset('assets/images/idea.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2013 - 2009</span>
-                                    <h3 class="title">Honours Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">2020-2021</span>
+                                    <h3 class="title">Bebshakori</h3>
+                                    <p>CEO & Founder.</p>
                                 </div>
                             </div>
                             <!-- main line -->
@@ -419,9 +515,7 @@
 
         <!-- Section Projects -->
         <section id="projects">
-
             <div class="container">
-
                 <!-- section title -->
                 <h2 class="section-title wow fadeInUp">Projects</h2>
                 <div class="spacer" data-height="60"></div>
@@ -430,13 +524,24 @@
                     <div class="col-md-12">
                         <!-- timeline wrapper -->
                         <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/project.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2020</span>
+                                    <h3 class="title">Courierashbe.com</h3>
+                                    <p>A courier company's web application.</p>
+                                </div>
+                            </div>
+
                             <!-- timeline item -->
                             <div class="timeline-container wow fadeInUp">
                                 <div class="content">
                                     <img src="{{asset('assets/images/project.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2019 - Present</span>
-                                    <h3 class="title">Academic Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">2021</span>
+                                    <h3 class="title">Bebshakori.com</h3>
+                                    <p>A business listing web application.</p>
                                 </div>
                             </div>
 
@@ -444,21 +549,43 @@
                             <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="content">
                                     <img src="{{asset('assets/images/project.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2017 - 2013</span>
-                                    <h3 class="title">Bachelor’s Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">2021</span>
+                                    <h3 class="title">Citylawyers.uk</h3>
+                                    <p>Lawyer consultation firm portfolio website.</p>
                                 </div>
                             </div>
 
                             <!-- timeline item -->
-                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="content">
                                     <img src="{{asset('assets/images/project.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2013 - 2009</span>
-                                    <h3 class="title">Honours Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">2021</span>
+                                    <h3 class="title">thatstories.xyz</h3>
+                                    <p>A blog listing web application.</p>
                                 </div>
                             </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/project.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2021</span>
+                                    <h3 class="title">thatcolumn.xyz</h3>
+                                    <p>An eBook related web application.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/project.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2021</span>
+                                    <h3 class="title">servicearea.xyz</h3>
+                                    <p>A business portfolio website of an IT company.</p>
+                                </div>
+                            </div>
+
+
                             <!-- main line -->
                             <span class="line"></span>
 
@@ -470,9 +597,7 @@
 
         <!-- Section Achievements -->
         <section id="achievements">
-
             <div class="container">
-
                 <!-- section title -->
                 <h2 class="section-title wow fadeInUp">Achievements</h2>
                 <div class="spacer" data-height="60"></div>
@@ -481,13 +606,14 @@
                     <div class="col-md-12">
                         <!-- timeline wrapper -->
                         <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+
                             <!-- timeline item -->
                             <div class="timeline-container wow fadeInUp">
                                 <div class="content">
                                     <img src="{{asset('assets/images/achievement.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2019 - Present</span>
-                                    <h3 class="title">Academic Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">2012</span>
+                                    <h3 class="title">Arabic Hamd</h3>
+                                    <p>1st position in class 7.</p>
                                 </div>
                             </div>
 
@@ -495,21 +621,22 @@
                             <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="content">
                                     <img src="{{asset('assets/images/achievement.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2017 - 2013</span>
-                                    <h3 class="title">Bachelor’s Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">2016</span>
+                                    <h3 class="title">Arabic Hamd</h3>
+                                    <p>2nd position in HSC-2nd year</p>
                                 </div>
                             </div>
 
                             <!-- timeline item -->
-                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="content">
                                     <img src="{{asset('assets/images/achievement.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2013 - 2009</span>
-                                    <h3 class="title">Honours Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">2019</span>
+                                    <h3 class="title">Project Performa</h3>
+                                    <p>Outstanding performance as an organizer</p>
                                 </div>
                             </div>
+
                             <!-- main line -->
                             <span class="line"></span>
 
@@ -521,34 +648,22 @@
 
         <!-- Section Workshop, Training & Certifications -->
         <section id="training">
-
             <div class="container">
-
                 <!-- section title -->
                 <h2 class="section-title wow fadeInUp">Certificates on Workshops & Training</h2>
                 <div class="spacer" data-height="60"></div>
-
                 <div class="row">
                     <div class="col-md-12">
                         <!-- timeline wrapper -->
                         <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
-                            <!-- timeline item -->
-                            <div class="timeline-container wow fadeInUp">
-                                <div class="content">
-                                    <img src="{{asset('assets/images/training.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2019 - Present</span>
-                                    <h3 class="title">Academic Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
-                                </div>
-                            </div>
 
                             <!-- timeline item -->
-                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="content">
                                     <img src="{{asset('assets/images/training.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2017 - 2013</span>
-                                    <h3 class="title">Bachelor’s Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">2017</span>
+                                    <h3 class="title">United International University</h3>
+                                    <p>Successfully participated in workshop on Global Career in project management.</p>
                                 </div>
                             </div>
 
@@ -556,11 +671,142 @@
                             <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="content">
                                     <img src="{{asset('assets/images/training.png')}}" class="education" style="margin-right: 15px;" alt="">
-                                    <span class="time">2013 - 2009</span>
-                                    <h3 class="title">Honours Degree</h3>
-                                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                                    <span class="time">2018</span>
+                                    <h3 class="title">United International University</h3>
+                                    <p>Worked as a volunteer in the National Career Conference organized by UIU HR Forum.</p>
                                 </div>
                             </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/training.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2019</span>
+                                    <h3 class="title">Itsors</h3>
+                                    <p>Prefessional Web Design.</p>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/training.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <span class="time">2020</span>
+                                    <h3 class="title">Coderstrust</h3>
+                                    <p>Prefessional Web Development.</p>
+                                </div>
+                            </div>
+
+                            <!-- main line -->
+                            <span class="line"></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Workshop, Training & Certifications -->
+        <section id="extraActivities">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title wow fadeInUp">Extra Curricular Skills</h2>
+                <div class="spacer" data-height="60"></div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- timeline wrapper -->
+                        <div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/excel.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <h3 class="title">Microsoft Excel</h3>
+                                    <div class="skill-item">
+                                        <div class="skill-info clearfix">
+                                            <span class="float-right">50%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" data-color="#2F6F1F">
+                                            </div>
+                                        </div>
+                                        <div class="spacer" data-height="20"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/powerpoint.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <h3 class="title">Microsoft Powerpoint</h3>
+                                    <div class="skill-item">
+                                        <div class="skill-info clearfix">
+                                            <span class="float-right">80%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" data-color="#FF4C60">
+                                            </div>
+                                        </div>
+                                        <div class="spacer" data-height="20"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/word.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <h3 class="title">Microsoft Word</h3>
+                                    <div class="skill-item">
+                                        <div class="skill-info clearfix">
+                                            <span class="float-right">80%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" data-color="#4F8BCF">
+                                            </div>
+                                        </div>
+                                        <div class="spacer" data-height="20"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/adobe-photoshop.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <h3 class="title">Adobe Photoshop</h3>
+                                    <div class="skill-item">
+                                        <div class="skill-info clearfix">
+                                            <span class="float-right">30%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="30" data-color="#002732">
+                                            </div>
+                                        </div>
+                                        <div class="spacer" data-height="20"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- timeline item -->
+                            <div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="content">
+                                    <img src="{{asset('assets/images/premirePro.png')}}" class="education" style="margin-right: 15px;" alt="">
+                                    <h3 class="title">Adobe Premire Pro</h3>
+                                    <div class="skill-item">
+                                        <div class="skill-info clearfix">
+                                            <span class="float-right">80%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" data-color="#00005B">
+                                            </div>
+                                        </div>
+                                        <div class="spacer" data-height="20"></div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <!-- main line -->
                             <span class="line"></span>
 
@@ -602,7 +848,7 @@
 
                 <!-- portolio wrapper -->
                 <div class="row portfolio-wrapper">
-                    <!-- portfolio item -->
+                    <!-- Web Development -->
                     <div class="col-md-4 col-sm-6 grid-item web_development">
                         <a href="#small-dialog" class="work-content">
                             <div class="portfolio-item rounded shadow-dark">
@@ -625,7 +871,7 @@
                             <a href="#" class="btn btn-default">View on Dribbble</a>
                         </div>
                     </div>
-                    <!-- portfolio item -->
+                    <!-- Web Development -->
                     <div class="col-md-4 col-sm-6 grid-item web_development">
                         <a href="#small-dialog1" class="work-content">
                             <div class="portfolio-item rounded shadow-dark">
@@ -648,7 +894,7 @@
                             <a href="#" class="btn btn-default">View on Dribbble</a>
                         </div>
                     </div>
-                    <!-- portfolio item -->
+                    <!-- Web Development -->
                     <div class="col-md-4 col-sm-6 grid-item web_development">
                         <a href="#small-dialog2" class="work-content">
                             <div class="portfolio-item rounded shadow-dark">
@@ -664,6 +910,75 @@
                             </div>
                         </a>
                         <div id="small-dialog2" class="white-popup zoom-anim-dialog mfp-hide">
+                            <img src="{{asset('assets/images/demo3.jpg')}}" alt="Title" />
+                            <h2>Business Listing Website</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
+                            <p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
+                            <a href="#" class="btn btn-default">View on Dribbble</a>
+                        </div>
+                    </div>
+                    <!-- Web Design -->
+                    <div class="col-md-4 col-sm-6 grid-item web_design">
+                        <a href="#small-dialog3" class="work-content">
+                            <div class="portfolio-item rounded shadow-dark">
+                                <div class="details">
+                                    <span class="term">Web Development</span>
+                                    <h4 class="title">Business Listing Website</h4>
+                                    <span class="more-button"><i class="icon-options"></i></span>
+                                </div>
+                                <div class="thumb">
+                                    <img src="{{asset('assets/images/demo1.png')}}" alt="Portfolio-title" />
+                                    <div class="mask"></div>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="small-dialog3" class="white-popup zoom-anim-dialog mfp-hide">
+                            <img src="{{asset('assets/images/demo3.jpg')}}" alt="Title" />
+                            <h2>Business Listing Website</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
+                            <p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
+                            <a href="#" class="btn btn-default">View on Dribbble</a>
+                        </div>
+                    </div>
+                    <!-- Web Design -->
+                    <div class="col-md-4 col-sm-6 grid-item web_design">
+                        <a href="#small-dialog4" class="work-content">
+                            <div class="portfolio-item rounded shadow-dark">
+                                <div class="details">
+                                    <span class="term">Web Development</span>
+                                    <h4 class="title">Business Listing Website</h4>
+                                    <span class="more-button"><i class="icon-options"></i></span>
+                                </div>
+                                <div class="thumb">
+                                    <img src="{{asset('assets/images/website2.png')}}" alt="Portfolio-title" />
+                                    <div class="mask"></div>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="small-dialog4" class="white-popup zoom-anim-dialog mfp-hide">
+                            <img src="{{asset('assets/images/demo3.jpg')}}" alt="Title" />
+                            <h2>Business Listing Website</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
+                            <p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
+                            <a href="#" class="btn btn-default">View on Dribbble</a>
+                        </div>
+                    </div>
+                    <!-- Web Design -->
+                    <div class="col-md-4 col-sm-6 grid-item web_design">
+                        <a href="#small-dialog5" class="work-content">
+                            <div class="portfolio-item rounded shadow-dark">
+                                <div class="details">
+                                    <span class="term">Web Development</span>
+                                    <h4 class="title">Business Listing Website</h4>
+                                    <span class="more-button"><i class="icon-options"></i></span>
+                                </div>
+                                <div class="thumb">
+                                    <img src="{{asset('assets/images/demo3.jpg')}}" alt="Portfolio-title" />
+                                    <div class="mask"></div>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="small-dialog5" class="white-popup zoom-anim-dialog mfp-hide">
                             <img src="{{asset('assets/images/demo3.jpg')}}" alt="Title" />
                             <h2>Business Listing Website</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
@@ -837,7 +1152,6 @@
 
         <!-- section contact -->
         <section id="contact">
-
             <div class="container">
 
                 <!-- section title -->
@@ -846,16 +1160,7 @@
                 <div class="spacer" data-height="60"></div>
 
                 <div class="row">
-
-                    <div class="col-md-4">
-                        <!-- contact info -->
-                        <div class="contact-info">
-                            <h3 class="wow fadeInUp">Let's talk about everything!</h3>
-                            <p class="wow fadeInUp">Don't like forms? Send me an <a href="mailto:name@example.com">email</a>. 👋</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-8" id="contact_form">
+                    <div class="col-lg-12 col-md-12 col-sm-12" id="contact_form">
                         <!-- Contact Form -->
                         <form class="mt-6" method="POST" action="{{route('contact.store')}}">
                             @csrf
@@ -883,20 +1188,18 @@
                                     <!-- Message textarea -->
                                     <div class="form-group">
                                         <textarea style="font-family: 'Hind Siliguri', sans-serif;
-                                        font-family: 'Poppins', sans-serif; font-size:20px; font-weight:bold;" name="InputMessage" id="InputMessage" class="form-control" rows="10" placeholder="Message" required="required" data-error="Message is required."></textarea>
+                                       font-family: 'Poppins', sans-serif; font-size:25px; font-weight:bold;" name="InputMessage" id="InputMessage" class="form-control" rows="10" placeholder="Message" required="required" data-error="Message is required."></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="column col-md-12">
                                     @include('alert.messages')
                                 </div>
-
                             </div>
-
-
                             <button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default">Send Message</button><!-- Send Button -->
 
                         </form>
+
                         <!-- Contact Form end -->
                     </div>
 
